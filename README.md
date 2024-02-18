@@ -66,6 +66,18 @@ You've successfully run and modified your React Native App. :partying_face:
 
 # Troubleshooting
 
+## if you face the java version issue then you can follow this
+- [Issue solution](https://stackoverflow.com/questions/76362800/android-gradle-plugin-requires-java-17-to-run-you-are-currently-using-java-11)
+- Step 1: Just Download the Java 17. LINK
+
+- Step 2: Set environment variable for Java 17.
+
+- Step 3: In Android Studio Go to File → settings → Build, Execution, Deployment → Build Tools → Gradle → Gradle JDK And Select Java 17.
+
+- Step 4: Delete the Gradle Cache directory if you still get the error, on Mac it's located at ~/.gradle/caches
+
+BUILD SUCCESSFUL :)
+
 If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
 # Learn More
