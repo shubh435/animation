@@ -68,7 +68,7 @@ You've successfully run and modified your React Native App. :partying_face:
 
 ## if you face the java version issue then you can follow this
 - [Issue solution](https://stackoverflow.com/questions/76362800/android-gradle-plugin-requires-java-17-to-run-you-are-currently-using-java-11)
-- Step 1: Just Download the Java 17. LINK
+- Step 1: Just Download the Java 17. [LINK](https://www.oracle.com/in/java/technologies/downloads/#jdk17-windows)
 
 - Step 2: Set environment variable for Java 17.
 
