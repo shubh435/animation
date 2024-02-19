@@ -1,11 +1,13 @@
 import { StyleSheet, View } from "react-native";
-import DotLoadingAnimation from "./src/component/DotLoadingAnimation";
+// import DotLoadingAnimation from "./src/component/DotLoadingAnimation";
+import CircularProgressLoadingAnimation from "./src/component/CircularProgressLoadingAnimation";
 
 const App = () => {
 
   return (
     <View style={styles.container}>
-      <DotLoadingAnimation />
+      <CircularProgressLoadingAnimation />
+      {/* <DotLoadingAnimation /> */}
     </View>
   )
 }
